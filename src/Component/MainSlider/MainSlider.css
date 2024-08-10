@@ -1,0 +1,90 @@
+/* From Uiverse.io by alexmaracinaru */ 
+.div{
+    height: 100px;
+    align-items: centers;
+}
+.bg {
+  background-color: rgb(248, 249, 250);
+  border-radius:25px; /* Adjust this value as needed */
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-style: dashed;
+  border-width: 3px;
+  height: 300px;
+  z-index: -9999999999;
+  overflow: hidden; /* Ensure inner content respects the border radius */
+}
+.bg-inner {
+  border-radius: 50px; /* Match this value with the outer border radius */
+  border: 20px solid rgb(248, 249, 250); /* Inner border with same color */
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; /* Include border in element's total width and height */
+}
+
+.svg{
+  position: relative;
+  top: 1px;
+}
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left:15px
+  }
+.cta:hover{
+    color: #208b52;
+}
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    transition: transform 0.25s ease-out;
+  }
+  .hover-underline-animation:hover{
+    color: #176139;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2ab66b;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+  
