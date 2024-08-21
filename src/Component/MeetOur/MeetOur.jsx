@@ -11,7 +11,7 @@ import image6 from '../../Assets/Images/mariam.jpeg';
 
 const MeetOur = () => {
   const teachers = [
-    // { name: 'Abdul Rahman ', image: image1 },
+    { name: 'Abdul Rahman ', image: image1 },
     { name: 'Israa Atef', image: image2 },
     { name: 'Ahmed', image: image3 },
     { name: 'Nadra', image: image4 },
