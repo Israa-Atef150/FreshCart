@@ -4,27 +4,26 @@ FreshCart is a modern and responsive e-commerce platform designed to provide a s
 
 ## Features
 
-- **Bootstrap 5 Integration**: Leverages Bootstrap 5.3.3 to ensure a responsive and mobile-friendly design. ​[Bootstrap Themes+1FreshCart+1](https://themes.getbootstrap.com/product/freshcart-ecommerce-html-template/?utm_source=chatgpt.com)
+- **Bootstrap 5 Integration**: Leverages Bootstrap 5.3.3 to ensure a responsive and mobile-friendly design.
     
-- **Comprehensive Page Templates**: Includes over 25 e-commerce store pages and 4 distinct home page layouts to cater to various business needs. ​[Bootstrap Themes](https://themes.getbootstrap.com/product/freshcart-ecommerce-html-template/?utm_source=chatgpt.com)
+- **Comprehensive Page Templates**: Includes over 25 e-commerce store pages and 4 distinct home page layouts to cater to various business needs.
     
-- **User Authentication**: Allows users to create accounts, log in securely, and manage their profiles, including personal information and order history. ​[GitHub](https://github.com/Hossam-H22/Fresh-Cart?utm_source=chatgpt.com)
+- **User Authentication**: Allows users to create accounts, log in securely, and manage their profiles, including personal information and order history.
     
-- **Product Browsing**: Features intuitive product listings with search, filter, and sorting functionalities for enhanced user experience. ​[GitHub](https://github.com/Hossam-H22/Fresh-Cart?utm_source=chatgpt.com)
+- **Product Browsing**: Features intuitive product listings with search, filter, and sorting functionalities for enhanced user experience.
     
-- **Product Details**: Provides detailed product information, including images, descriptions, prices, and customer reviews. ​[GitHub](https://github.com/Hossam-H22/Fresh-Cart?utm_source=chatgpt.com)
+- **Product Details**: Provides detailed product information, including images, descriptions, prices, and customer reviews. ​
     
-- **Shopping Cart**: Offers a virtual shopping cart for users to add, remove, and manage products before checkout. ​[cydeztechnologies.com](https://cydeztechnologies.com/products/ecommerce-grocery.html?utm_source=chatgpt.com)
+- **Shopping Cart**: Offers a virtual shopping cart for users to add, remove, and manage products before checkout. ​
     
-- **Secure Payments**: Integrates secure and flexible payment options to ensure safe transactions. ​[cydeztechnologies.com](https://cydeztechnologies.com/products/ecommerce-grocery.html?utm_source=chatgpt.com)
+- **Secure Payments**: Integrates secure and flexible payment options to ensure safe transactions.
     
-- **Order Tracking**: Enables real-time order tracking to keep customers informed about their purchases. ​[GitHub+2cydeztechnologies.com+2WooCommerce+2](https://cydeztechnologies.com/products/ecommerce-grocery.html?utm_source=chatgpt.com)
+- **Order Tracking**: Enables real-time order tracking to keep customers informed about their purchases.
     
-- **Social Integration**: Facilitates social media integration for broader reach and engagement. ​[cydeztechnologies.com](https://cydeztechnologies.com/products/ecommerce-grocery.html?utm_source=chatgpt.com)
+- **Social Integration**: Facilitates social media integration for broader reach and engagement.
     
-- **High Performance**: Features lightweight, W3C-validated code for fast loading speeds and optimal performance. ​[TailAwesome](https://www.tailwindawesome.com/resources/freshcart?utm_source=chatgpt.com)
+- **High Performance**: Features lightweight, W3C-validated code for fast loading speeds and optimal performance. ​
     
-
 ## Getting Started
 
 ### Prerequisites
