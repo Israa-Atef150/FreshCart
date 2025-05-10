@@ -18,11 +18,7 @@ import AboutUs from './Component/AboutUs/AboutUs';
 import MeetOur from './Component/MeetOur/MeetOur';
 
 function App() {
-
-
-  let routers = createBrowserRouter([
-    {path:'', element:<Layout/>,children:[
-    let routers = createBrowserRouter([
+ let routers = createBrowserRouter([
     {path:'', element:<Layout/>,children:[
       {path:'', element:<Navigate to={'home'}/>},
       {path:'/home',element:<Home/>},
@@ -39,9 +35,7 @@ function App() {
       {path:'/about-us',element:<AboutUs/>},
       {path:'*',element:<NotFound/>},
     ]}
-  ],{ basename: '/FreshCart' })
-    ]}
-  ])
+  ],{ basename: '/FreshCart' })
 
   return (
     <AuthContextProvider>
