@@ -21,8 +21,8 @@ function App() {
 
 
   let routers = createBrowserRouter([
-    {path:'FreshCart', element:<Layout/>,children:[
-      {path:'', element:<Navigate to={'home'}/>},
+    {path:'', element:<Layout/>,children:[
+      {path:'/FreshCart', element:<Navigate to={'home'}/>},
       {path:'/home',element:<Home/>},
       {path:'/login',element:<ProtectedLogIn><Login/></ProtectedLogIn>},
       {path:'/register',element:<ProtectedLogIn><Register/></ProtectedLogIn>},
