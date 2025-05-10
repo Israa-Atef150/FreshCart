@@ -22,7 +22,9 @@ function App() {
 
   let routers = createBrowserRouter([
     {path:'', element:<Layout/>,children:[
-      {path:'/FreshCart', element:<Navigate to={'home'}/>},
+    let routers = createBrowserRouter([
+    {path:'', element:<Layout/>,children:[
+      {path:'', element:<Navigate to={'home'}/>},
       {path:'/home',element:<Home/>},
       {path:'/login',element:<ProtectedLogIn><Login/></ProtectedLogIn>},
       {path:'/register',element:<ProtectedLogIn><Register/></ProtectedLogIn>},
@@ -36,6 +38,8 @@ function App() {
       {path:'/meet-our',element:<MeetOur/>},
       {path:'/about-us',element:<AboutUs/>},
       {path:'*',element:<NotFound/>},
+    ]}
+  ],{ basename: '/FreshCart' })
     ]}
   ])
 
